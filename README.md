@@ -4,6 +4,7 @@ Docker for build environment and Qemu for emulating os.
 # Directions
 1. Clone repository and navigate to it.
 2. Build image using following command: 
+
     ```docker build buildenv -t myos-buildenv```
 3. Enter build environment:
     ```docker run --rm -it -v "%cd%":/root/env myos-buildenv```
@@ -18,3 +19,10 @@ Docker for build environment and Qemu for emulating os.
 - GUI
 - Physical Memory management
 - read/write
+=======
+    ```dockerfile docker build buildenv -t myos-buildenv```
+3. Enter environment:
+    ```dockerfile docker run --rm -it -v "%cd%":/root/env myos-buildenv```
+    
+    If Linux, replace ```"%cd%"``` with "$(pwd)"
+
