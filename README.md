@@ -21,5 +21,5 @@ Docker for build environment and Qemu for emulating os.
 - read/write
 
   # Issues
-  -deadlock between keyboard and cpu
+- deadlock between keyboard and cpu
   
