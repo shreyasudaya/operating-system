@@ -19,3 +19,7 @@ Docker for build environment and Qemu for emulating os.
 - GUI
 - Physical Memory management
 - read/write
+
+  # Issues
+  -deadlock between keyboard and cpu
+  
